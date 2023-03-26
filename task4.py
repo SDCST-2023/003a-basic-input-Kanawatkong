@@ -16,3 +16,12 @@
 # r = 3
 # h = 5
 # sa = 83.2297607912
+import math
+data = input("Please enter some data and then press the Enter Key")
+print("You entered:" + data)
+print("\n\n\n")
+question = "How much is height and radius "
+response = input(question)
+L = math.sqrt(3**2 + 5**2)
+answer = math.pi * 3 * L
+print(answer)
